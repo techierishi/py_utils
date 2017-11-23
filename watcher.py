@@ -2,7 +2,7 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-
+# INSTALL FIRST : pip install watchdog
 class Watcher:
     DIRECTORY_TO_WATCH = "C:\Users\jharish\Code\popup"
 
